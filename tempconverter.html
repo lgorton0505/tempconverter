@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temp Calculator</title>
+    <script src="tempconverter.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="box">
+        <h1>Temp Calculator</h1>
+
+        <div>
+            <div class="inputs">
+                <label>input Farenheit</label>
+                <input type="number" id="fah" oninput="fahrenToCel()">
+            </div>
+
+
+            <div class="inputs">
+                <label>input Celcius</label>
+                <input type="number" id="cel" oninput="celToFah()">
+            </div>
+
+        </div>
+        <div>
+            <p>Celcius: <span id="Celcius"></span></p>
+            <p>Fahrenheit: <span id="Fahrenheit"></span></p>
+        </div>
+    </div>
+</body>
+</html>
